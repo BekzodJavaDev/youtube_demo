@@ -1,0 +1,70 @@
+2022-07-06 14:38:36  INFO  - com.company.YoutubeDemoApplication  - Starting YoutubeDemoApplication using Java 17.0.3 on MacBook-Pro-Qoraxonov.local with PID 20478 (/Users/qoraxonovbekzod/Desktop/Wep_project/youtube_demo/youtube_demo/target/classes started by qoraxonovbekzod in /Users/qoraxonovbekzod/Desktop/Wep_project/youtube_demo/youtube_demo)
+2022-07-06 14:38:36  INFO  - com.company.YoutubeDemoApplication  - The following 1 profile is active: "dev"
+2022-07-06 14:38:36  INFO  - org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06 14:38:36  INFO  - org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06 14:38:36  INFO  - org.springframework.data.repository.config.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 14:38:36  INFO  - org.springframework.data.repository.config.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 17 ms. Found 6 JPA repository interfaces.
+2022-07-06 14:38:36  INFO  - org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http)
+2022-07-06 14:38:36  INFO  - org.apache.catalina.core.StandardService  - Starting service [Tomcat]
+2022-07-06 14:38:36  INFO  - org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06 14:38:36  INFO  - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]  - Initializing Spring embedded WebApplicationContext
+2022-07-06 14:38:36  INFO  - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 741 ms
+2022-07-06 14:38:36  INFO  - org.hibernate.jpa.internal.util.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-06 14:38:36  INFO  - org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-06 14:38:37  INFO  - org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-06 14:38:37  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Starting...
+2022-07-06 14:38:37  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Start completed.
+2022-07-06 14:38:37  INFO  - org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-06 14:38:37  WARN  - org.hibernate.id.UUIDHexGenerator  - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-07-06 14:38:37  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:38:37  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_e6kcx6o9v2tdb97wys346w8yb" of relation "channel" does not exist, skipping
+2022-07-06 14:38:37  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:38:37  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_cit1csi2pn5wfgb30hg83plbt" of relation "video" does not exist, skipping
+2022-07-06 14:38:37  INFO  - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 14:38:37  INFO  - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06 14:38:37  WARN  - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-06 14:38:37  INFO  - org.springframework.security.web.DefaultSecurityFilterChain  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e5500e0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b2b8543, org.springframework.security.web.context.SecurityContextPersistenceFilter@68939563, org.springframework.security.web.header.HeaderWriterFilter@2137fee5, org.springframework.security.web.authentication.logout.LogoutFilter@10a21327, com.company.config.springSicurityConfig.JwtTokenFilter@5197af3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7aeaeb2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53ffc1e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@922c64a, org.springframework.security.web.session.SessionManagementFilter@1b9f205c, org.springframework.security.web.access.ExceptionTranslationFilter@7a6f9612, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1c15d18f]
+2022-07-06 14:38:37  INFO  - org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer  - LiveReload server is running on port 35729
+2022-07-06 14:38:38  INFO  - org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-06 14:38:38  INFO  - com.company.YoutubeDemoApplication  - Started YoutubeDemoApplication in 2.215 seconds (JVM running for 2.586)
+2022-07-06 14:41:42  INFO  - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06 14:41:42  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Shutdown initiated...
+2022-07-06 14:41:42  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Shutdown completed.
+2022-07-06 14:41:44  INFO  - com.company.YoutubeDemoApplication  - Starting YoutubeDemoApplication using Java 17.0.3 on MacBook-Pro-Qoraxonov.local with PID 20542 (/Users/qoraxonovbekzod/Desktop/Wep_project/youtube_demo/youtube_demo/target/classes started by qoraxonovbekzod in /Users/qoraxonovbekzod/Desktop/Wep_project/youtube_demo/youtube_demo)
+2022-07-06 14:41:44  INFO  - com.company.YoutubeDemoApplication  - The following 1 profile is active: "dev"
+2022-07-06 14:41:44  INFO  - org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-06 14:41:44  INFO  - org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor  - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-06 14:41:45  INFO  - org.springframework.data.repository.config.RepositoryConfigurationDelegate  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-06 14:41:45  INFO  - org.springframework.data.repository.config.RepositoryConfigurationDelegate  - Finished Spring Data repository scanning in 16 ms. Found 6 JPA repository interfaces.
+2022-07-06 14:41:45  INFO  - org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http)
+2022-07-06 14:41:45  INFO  - org.apache.catalina.core.StandardService  - Starting service [Tomcat]
+2022-07-06 14:41:45  INFO  - org.apache.catalina.core.StandardEngine  - Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-06 14:41:45  INFO  - org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]  - Initializing Spring embedded WebApplicationContext
+2022-07-06 14:41:45  INFO  - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 578 ms
+2022-07-06 14:41:45  INFO  - org.hibernate.jpa.internal.util.LogHelper  - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-06 14:41:45  INFO  - org.hibernate.Version  - HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-06 14:41:45  INFO  - org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-06 14:41:45  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Starting...
+2022-07-06 14:41:45  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Start completed.
+2022-07-06 14:41:45  INFO  - org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-07-06 14:41:45  WARN  - org.hibernate.id.UUIDHexGenerator  - HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_2eg0kp0p6jl591y6kxa5rin4k" of relation "category" does not exist, skipping
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_e6kcx6o9v2tdb97wys346w8yb" of relation "channel" does not exist, skipping
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_9d5dpsf2ufa6rjbi3y0elkdcd" of relation "profile" does not exist, skipping
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_cvpg2v6aun3qd3l672m6q8cxm" of relation "profile" does not exist, skipping
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Warning Code: 0, SQLState: 00000
+2022-07-06 14:41:45  WARN  - org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - constraint "uk_cit1csi2pn5wfgb30hg83plbt" of relation "video" does not exist, skipping
+2022-07-06 14:41:45  INFO  - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-06 14:41:45  INFO  - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06 14:41:45  WARN  - org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-06 14:41:46  INFO  - org.springframework.security.web.DefaultSecurityFilterChain  - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6c25150b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@531ad5ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@a414428, org.springframework.security.web.header.HeaderWriterFilter@7a7105e8, org.springframework.security.web.authentication.logout.LogoutFilter@4722c128, com.company.config.springSicurityConfig.JwtTokenFilter@6e3b505b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7f9f01ce, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2bc9e054, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3feee200, org.springframework.security.web.session.SessionManagementFilter@6958f67, org.springframework.security.web.access.ExceptionTranslationFilter@c7486e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3fe6a888]
+2022-07-06 14:41:46  INFO  - org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer  - LiveReload server is running on port 35729
+2022-07-06 14:41:46  INFO  - org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-06 14:41:46  INFO  - com.company.YoutubeDemoApplication  - Started YoutubeDemoApplication in 1.849 seconds (JVM running for 2.116)
+2022-07-06 14:43:58  INFO  - org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-06 14:43:58  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Shutdown initiated...
+2022-07-06 14:43:58  INFO  - com.zaxxer.hikari.HikariDataSource  - HikariPool-1 - Shutdown completed.
