@@ -1,7 +1,7 @@
 package com.company.controller;
 
 
-import com.company.dto.ChannelDTO;
+import com.company.dto.channel.ChannelDTO;
 import com.company.service.ChannelService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -10,8 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @Slf4j
 @Api("Channel Controller")

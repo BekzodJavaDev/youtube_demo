@@ -1,7 +1,7 @@
 package com.company.service;
 
 
-import com.company.dto.ChannelDTO;
+import com.company.dto.channel.ChannelDTO;
 import com.company.entity.AttachEntity;
 
 import com.company.entity.ChannelEntity;

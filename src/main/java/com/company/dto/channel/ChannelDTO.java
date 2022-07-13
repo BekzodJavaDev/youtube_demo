@@ -1,4 +1,4 @@
-package com.company.dto;
+package com.company.dto.channel;
 
 import com.company.entity.AttachEntity;
 import com.company.entity.ProfileEntity;
