@@ -17,31 +17,31 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/comment_like")
 @RestController
 public class CommentLikeController {
-    @Autowired
-    private ProfileService profileService;
-    @Autowired
-    private CommentLikeService commentLikeService;
-
-    @PostMapping("/like")
-    public ResponseEntity<Void> like(@RequestBody CommentLikeDTO dto) {
-        Integer id = profileService.getCurrentUser().getProfile().getId();
-        commentLikeService.commentLike(dto.getCommentId(),id );
-        return ResponseEntity.ok().build();
-    }
-
-    @PostMapping("/dislike")
-    public ResponseEntity<Void> dislike(@RequestBody CommentLikeDTO dto
-                                        ) {
-        Integer id = profileService.getCurrentUser().getProfile().getId();
-        commentLikeService.commentDisLike(dto.getCommentId(),id);
-        return ResponseEntity.ok().build();
-    }
-
-    @PostMapping("/remove")
-    public ResponseEntity<Void> remove(@RequestBody CommentLikeDTO dto) {
-        Integer id = profileService.getCurrentUser().getProfile().getId();
-        commentLikeService.removeLike(dto.getCommentId(),id);
-        return ResponseEntity.ok().build();
-    }
+//    @Autowired
+//    private ProfileService profileService;
+//    @Autowired
+//    private CommentLikeService commentLikeService;
+//
+//    @PostMapping("/like")
+//    public ResponseEntity<Void> like(@RequestBody CommentLikeDTO dto) {
+//        Integer id = profileService.getCurrentUser().getProfile().getId();
+//        commentLikeService.commentLike(dto.getCommentId(),id );
+//        return ResponseEntity.ok().build();
+//    }
+//
+//    @PostMapping("/dislike")
+//    public ResponseEntity<Void> dislike(@RequestBody CommentLikeDTO dto
+//                                        ) {
+//        Integer id = profileService.getCurrentUser().getProfile().getId();
+//        commentLikeService.commentDisLike(dto.getCommentId(),id);
+//        return ResponseEntity.ok().build();
+//    }
+//
+//    @PostMapping("/remove")
+//    public ResponseEntity<Void> remove(@RequestBody CommentLikeDTO dto) {
+//        Integer id = profileService.getCurrentUser().getProfile().getId();
+//        commentLikeService.removeLike(dto.getCommentId(),id);
+//        return ResponseEntity.ok().build();
+//    }
 
 }

@@ -22,9 +22,6 @@ public class CommentController {
 
     //public
 
-
-
-
     //secure
 
     @PostMapping("/create")

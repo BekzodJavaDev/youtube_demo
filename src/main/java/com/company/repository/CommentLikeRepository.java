@@ -12,15 +12,15 @@ import java.util.HashMap;
 import java.util.Optional;
 
 public interface CommentLikeRepository extends CrudRepository<CommentLikeEntity,Integer> {
-    Optional<CommentLikeEntity> findByArticleAndProfile(CommentEntity comment, ProfileEntity profile);
-
-    @Query("FROM CommentLikeEntity c where  c.comment.id=:commentId and c.profile.id =:profileId")
-    Optional<CommentLikeEntity> findExists(Integer commentId, Integer profileId);
-
-    @Transactional
-    @Modifying
-    @Query("DELETE FROM CommentLikeEntity c where  c.comment.id=:articleId and c.profile.id =:profileId")
-    void delete(Integer commentId, Integer profileId);
+//    Optional<CommentLikeEntity> findByArticleAndProfile(CommentEntity comment, ProfileEntity profile);
+//
+//    @Query("FROM CommentLikeEntity c where  c.comment.id=:commentId and c.profile.id =:profileId")
+//    Optional<CommentLikeEntity> findExists(Integer commentId, Integer profileId);
+//
+//    @Transactional
+//    @Modifying
+//    @Query("DELETE FROM CommentLikeEntity c where  c.comment.id=:articleId and c.profile.id =:profileId")
+//    void delete(Integer commentId, Integer profileId);
 
 //    Integer countByStatusAndArticleId(String articleId , LikeStatus status);
 
