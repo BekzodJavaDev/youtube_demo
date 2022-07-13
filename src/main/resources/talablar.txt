@@ -219,7 +219,6 @@
     3. Remove Report by id (ADMIN)
     4. Report List By User id (ADMIN)
         ReportInfo
-
     RepostInfo
         id,profile(id,name,surname,photo(id,key,url)),content,
             entity_id(channel/video)),type(channel,video)

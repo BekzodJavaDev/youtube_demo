@@ -74,7 +74,9 @@ public class VideoEntity {
     @Column(nullable = false, name = "dislike_count")
     private Integer disLikeCount = 0;
 
+    public VideoEntity() {
+    }
 
-
-
+    public VideoEntity(String videoId) {
+    }
 }

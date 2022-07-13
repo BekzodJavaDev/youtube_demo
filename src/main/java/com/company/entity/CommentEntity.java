@@ -38,8 +38,9 @@ public class CommentEntity {
     @Column
     private Boolean visible = Boolean.TRUE;
 
+    public CommentEntity() {
+    }
 
-
-
-
+    public CommentEntity(Integer commentId) {
+    }
 }
