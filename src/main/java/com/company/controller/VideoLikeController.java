@@ -1,11 +1,13 @@
 package com.company.controller;
 
 
+import com.company.common.ApiResponse;
 import com.company.dto.video.VideoLikeDTO;
 import com.company.service.ProfileService;
 import com.company.service.VideoLikeService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,27 +26,27 @@ public class VideoLikeController {
     private VideoLikeService videoLikeService;
 
     @PostMapping("/like")
-    public ResponseEntity<Void> like(@RequestBody VideoLikeDTO dto
+    public ResponseEntity<ApiResponse> like(@RequestBody VideoLikeDTO dto
                                      ) {
         Integer id = profileService.getCurrentUser().getProfile().getId();
         videoLikeService.videoLike(dto.getVideoId(), id);
-        return ResponseEntity.ok().build();
+        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
     }
 
     @PostMapping("/dislike")
-    public ResponseEntity<Void> dislike(@RequestBody VideoLikeDTO dto
+    public ResponseEntity<ApiResponse> dislike(@RequestBody VideoLikeDTO dto
                                        ) {
         Integer id = profileService.getCurrentUser().getProfile().getId();
         videoLikeService.videoDisLike(dto.getVideoId(), id);
-        return ResponseEntity.ok().build();
+        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
     }
 
     @PostMapping("/remove")
-    public ResponseEntity<Void> remove(@RequestBody VideoLikeDTO dto
+    public ResponseEntity<ApiResponse> remove(@RequestBody VideoLikeDTO dto
                                        ) {
         Integer id = profileService.getCurrentUser().getProfile().getId();
         videoLikeService.removeLike(dto.getVideoId(), id);
-        return ResponseEntity.ok().build();
+        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
     }
 
 }
