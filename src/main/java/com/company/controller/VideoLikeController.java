@@ -19,34 +19,34 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class VideoLikeController {
 
-    @Autowired
-    private ProfileService profileService;
-
-    @Autowired
-    private VideoLikeService videoLikeService;
-
-    @PostMapping("/like")
-    public ResponseEntity<ApiResponse> like(@RequestBody VideoLikeDTO dto
-                                     ) {
-        Integer id = profileService.getCurrentUser().getProfile().getId();
-        videoLikeService.videoLike(dto.getVideoId(), id);
-        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
-    }
-
-    @PostMapping("/dislike")
-    public ResponseEntity<ApiResponse> dislike(@RequestBody VideoLikeDTO dto
-                                       ) {
-        Integer id = profileService.getCurrentUser().getProfile().getId();
-        videoLikeService.videoDisLike(dto.getVideoId(), id);
-        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
-    }
-
-    @PostMapping("/remove")
-    public ResponseEntity<ApiResponse> remove(@RequestBody VideoLikeDTO dto
-                                       ) {
-        Integer id = profileService.getCurrentUser().getProfile().getId();
-        videoLikeService.removeLike(dto.getVideoId(), id);
-        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
-    }
+//    @Autowired
+//    private ProfileService profileService;
+//
+//    @Autowired
+//    private VideoLikeService videoLikeService;
+//
+//    @PostMapping("/like")
+//    public ResponseEntity<ApiResponse> like(@RequestBody VideoLikeDTO dto
+//                                     ) {
+//        Integer id = profileService.getCurrentUser().getProfile().getId();
+//        videoLikeService.videoLike(dto.getVideoId(), id);
+//        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
+//    }
+//
+//    @PostMapping("/dislike")
+//    public ResponseEntity<ApiResponse> dislike(@RequestBody VideoLikeDTO dto
+//                                       ) {
+//        Integer id = profileService.getCurrentUser().getProfile().getId();
+//        videoLikeService.videoDisLike(dto.getVideoId(), id);
+//        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
+//    }
+//
+//    @PostMapping("/remove")
+//    public ResponseEntity<ApiResponse> remove(@RequestBody VideoLikeDTO dto
+//                                       ) {
+//        Integer id = profileService.getCurrentUser().getProfile().getId();
+//        videoLikeService.removeLike(dto.getVideoId(), id);
+//        return new ResponseEntity<>(new ApiResponse(true,"Successfully "), HttpStatus.OK);
+//    }
 
 }
