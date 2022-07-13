@@ -42,7 +42,7 @@ public class AuthController {
     public ResponseEntity<String> login(@PathVariable("token") String token) {
         Integer id = JwtUtil.decode(token);
         String response = authService.emailVerification(id);
-        return ResponseEntity.ok(response);
+        return new ResponseEntity<>(response,HttpStatus.OK);
     }
     @GetMapping("/resend/email/{email}")
     public ResponseEntity<ResponseInfoDTO> resendEmail(@PathVariable("email") String email) {

@@ -1,6 +1,6 @@
 package com.company.controller;
 
-import com.company.dto.CommentLikeDTO;
+import com.company.dto.comment.CommentLikeDTO;
 import com.company.service.CommentLikeService;
 import com.company.service.ProfileService;
 import lombok.extern.slf4j.Slf4j;

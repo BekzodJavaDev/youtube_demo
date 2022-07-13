@@ -1,7 +1,6 @@
 package com.company.controller;
 
 
-import com.company.dto.CommentLikeDTO;
 import com.company.dto.VideoLikeDTO;
 import com.company.service.ProfileService;
 import com.company.service.VideoLikeService;

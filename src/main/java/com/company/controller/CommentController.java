@@ -22,8 +22,10 @@ public class CommentController {
 
     //public
 
-    //secure
 
+
+
+    //secure
 
     @PostMapping("/create")
     public ResponseEntity<String> create(@RequestBody CommentDTO dto) {
