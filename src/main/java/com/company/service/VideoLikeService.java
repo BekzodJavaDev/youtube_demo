@@ -1,7 +1,7 @@
 package com.company.service;
 
 
-import com.company.dto.VideoLikeDTO;
+import com.company.dto.video.VideoLikeDTO;
 import com.company.entity.ProfileEntity;
 import com.company.entity.VideoEntity;
 import com.company.entity.VideoLikeEntity;

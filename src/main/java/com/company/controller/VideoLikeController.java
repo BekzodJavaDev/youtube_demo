@@ -1,7 +1,7 @@
 package com.company.controller;
 
 
-import com.company.dto.VideoLikeDTO;
+import com.company.dto.video.VideoLikeDTO;
 import com.company.service.ProfileService;
 import com.company.service.VideoLikeService;
 import lombok.extern.slf4j.Slf4j;
