@@ -39,7 +39,6 @@ public class VideoController {
         return new ResponseEntity<>(new ApiResponse(true,"Successfully updated"), HttpStatus.OK);
     }
 
-
     @DeleteMapping("/admin/delete/{id}")
     public ResponseEntity<ApiResponse>delete(@PathVariable("id") String id){
         videoService.delete(id);
